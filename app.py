@@ -186,11 +186,11 @@ st.markdown(f"""
         box-shadow: 0 8px 16px rgba(37, 99, 235, 0.12) !important;
         transform: translateY(-2px) !important;
     }}
-    /* Selected State Highlight (Toned Down) */
+    /* Selected State Highlight (Executive Suite) */
     div[data-testid="stRadio"] label:has(input:checked) {{
-        background: #3B82F6 !important; /* Softer, more modern blue */
-        border-color: #3B82F6 !important;
-        box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25) !important;
+        background: #475569 !important; /* Professional Slate Blue */
+        border-color: #475569 !important;
+        box-shadow: 0 10px 20px rgba(71, 85, 105, 0.2) !important;
     }}
     div[data-testid="stRadio"] label:has(input:checked) p {{
         color: white !important; transform: scale(1.05);
